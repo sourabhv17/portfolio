@@ -1,0 +1,22 @@
+.header-div{
+    top: 0;
+    background-color: black;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    justify-content: space-between;
+}
+
+
+
+.name{
+    color: white;
+    font-weight: 700;
+    
+}
+
+.left > span{
+ color: white;
+ margin-right: 4rem;
+}

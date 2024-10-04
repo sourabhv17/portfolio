@@ -1,0 +1,53 @@
+.body-div{
+    background-color: rgb(0, 0, 0);
+    height: 88vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.body-center{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    /* background-color: red; */
+}
+
+.body-center>span{
+    color: white;
+    font-weight: 650;
+    font-size: xx-large;
+    font-family: "PT Serif", serif;
+    padding-left: 4rem;
+}
+
+.body-name{
+    padding-top: 14rem;
+    padding-bottom: 1rem;
+}
+
+.body-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 4%;
+    background-color: black;
+}
+
+.body-left > span > img{
+    margin-left: 1.2rem;
+    margin-bottom: 0.6rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+}
+.body-left > span > img:hover{
+  width: 1.7rem;
+  height: 1.7rem;
+}
+
+.body-right{
+    background-color: black;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+}
