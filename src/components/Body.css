@@ -11,13 +11,61 @@
     width: 38%;
     /* background-color: red; */
 }
+.body-center-up{
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    /* background-color: red; */
+}
 
-.body-center>span{
+.body-center-up>span{
     color: white;
     font-weight: 650;
     font-size: xx-large;
     font-family: "PT Serif", serif;
     padding-left: 4rem;
+}
+
+.body-center-down {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 4rem;
+}
+
+.body-center-down> span{
+    color: white;
+    font-weight: 400;
+    cursor: pointer;
+
+}
+
+.buttons-div{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.buttons-div > button{
+    margin-top: 1rem;
+    height: 3rem;
+    width: 10rem;
+    border: 0.125rem solid white;
+    font-size: larger;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.buttons-div> button:hover{
+    width: 10.1rem;
+    height: 3.05rem;
+    transition: ease-out;
+    font-weight: 550;
+}
+
+.btn2{
+    margin-left: 2rem;
+    background-color: black;
+    color: white;
 }
 
 .body-name{
@@ -39,6 +87,7 @@
     width: 1.5rem;
     height: 1.5rem;
     border-radius: 50%;
+    cursor: pointer;
 }
 .body-left > span > img:hover{
   width: 1.7rem;

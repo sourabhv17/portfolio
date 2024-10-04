@@ -13,10 +13,11 @@
 .name{
     color: white;
     font-weight: 700;
-    
+    cursor: pointer;
 }
 
 .left > span{
  color: white;
  margin-right: 4rem;
+ cursor: pointer;
 }
