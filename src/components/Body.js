@@ -1,19 +1,26 @@
 import "./Body.css";
 import { LinkedIn, Github, Twitter } from "../utils/links";
 import Contacts from "./Contacts";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   return (
     <div className="body-div">
       <div className="body-left">
         <span>
-          <img src={LinkedIn}></img>
+          <Link to="https://www.linkedin.com/in/sourabh-umarvaishya-892aa9195/">
+            <img src={LinkedIn} className="image"></img>
+          </Link>
         </span>
         <span>
-          <img src={Github}></img>
+          <Link to="https://github.com/sourabhv17">
+            <img src={Github} className="image"></img>{" "}
+          </Link>
         </span>
         <span>
-          <img src={Twitter}></img>
+          <Link to="https://x.com/Sourabh635786">
+            <img src={Twitter} className="image"></img>
+          </Link>
         </span>
       </div>
       <div className="body-center">
@@ -32,9 +39,13 @@ const Body = () => {
             focused, sincere and dedicated, will enable me to achieve my career
             objectives and set benchmarks for myself.
           </span>
-          <div className="buttons-div">
-            <button className="btn1">My Portfolio</button>
-            <button class="btn2">Contact Me</button>
+          <div className="btn">
+            <Link to="/portfolio" className="buttons-div">
+              <button className="btn1">My Portfolio</button>
+            </Link>
+            <Link to="/contacts" className="buttons-div">
+              <button class="btn2">Contact Me</button>
+            </Link>
           </div>
         </div>
       </div>

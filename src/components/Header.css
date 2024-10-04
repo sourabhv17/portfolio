@@ -16,6 +16,11 @@
     cursor: pointer;
 }
 
+.name-linked{
+    text-decoration: none;
+    color: white;
+}
+
 .left > span{
  color: white;
  margin-right: 4rem;

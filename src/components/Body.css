@@ -40,9 +40,10 @@
 
 }
 
-.buttons-div{
+.btn{
     margin-top: 1rem;
     display: flex;
+    flex-direction: row;
 }
 
 .buttons-div > button{
@@ -81,7 +82,7 @@
     background-color: black;
 }
 
-.body-left > span > img{
+.image{
     margin-left: 1.2rem;
     margin-bottom: 0.6rem;
     width: 1.5rem;
